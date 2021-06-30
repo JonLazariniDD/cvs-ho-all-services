@@ -1,0 +1,26 @@
+{
+  "name": "cvs-ho-all-services",
+  "version": "1.0.0",
+  "description": "lightweight examples of code, toolings, technical documentation for CVS in order to get started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonLazariniDD/cvs-ho-all-services.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "nodejs",
+    "aws",
+    "cvs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonLazariniDD/cvs-ho-all-services/issues"
+  },
+  "homepage": "https://github.com/JonLazariniDD/cvs-ho-all-services#readme"
+}
