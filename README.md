@@ -23,4 +23,6 @@ For the following documentation, please refer to the [ecosystem section](./3-eco
 
 ## Typescript
 
-For the following documentation, please refer to the [working-with-typescript](./4-working-with-typescript/README.md)
+For the following documentation, please refer to the [working-with-typescript section](./4-working-with-typescript/README.md)
+
+This repository is work in progress. Feel free to help!
