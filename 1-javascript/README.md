@@ -3,6 +3,27 @@
 This page will present some javascript key concepts and documentation that relate to CVS project when developing.
 Credits go to the contributors from the open source community such as [Getify](https://github.com/getify) and projects are inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
+## First Class Functions
+
+Functions can be treaded as any other data type and there is nothing special about them, they can store values, be passed around as function parameters, assigned to variables.
+This is the essence of High Order Functions such as `forEach`, `map`, `filter`, `reduce` using callbacks. Functional programming paradigm leverages composition by using such concepts.
+
+```js
+const hi = function (name) {
+  return `Hi ${name}, `;
+};
+
+const greeting = (name) => hi(name);
+
+hi; // f (name) {return `Hi ${name}`}
+hi("You"); // "Hi You, "
+
+// greeting is calling hi with the same argument
+// it can be rewritten as:
+const greeting = hi;
+greeting("You"); // Hi You,
+```
+
 ## Closures and Currying
 
 Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in. It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
@@ -38,9 +59,9 @@ Please refer to Mozilla documentation for [further details](https://developer.mo
 
 ## Asynchronous programming
 
-Javascript is single threaded which means it can only execute one thing at a time.<br>
+Javascript is single threaded which means it can only execute one thing at a time on a single main thread.<br>
 Code will be executed in sequence however the event loop available from the native APIs (such as window object for example) will enable to process events 'concurrently' so that threads are not blocked when the program is executed.
-This is critical to understand this concept as asynchronous events will rely on the above mechanism to manage 'threads' and could lead to race conditions in the program and unpredictable behaviours or hard to trace bugs.
+This is critical to understand this concept as [asynchronous](https://developer.mozilla.org/en-US/docs/Glossary/Asynchronous) events will rely on the above mechanism to manage 'threads' and could lead to race conditions in the program and unpredictable behaviours or hard to trace bugs.
 Promises or async/await are the preferred approach as it makes the code linear and easier to understand.
 
 ```Js
@@ -107,7 +128,12 @@ const greeter = async (u) => {
 await greeter('You');
 ```
 
+Many Web API featuress use asynchronous code to run so the threads are not blocked.
 The following resources will explain in much more details the concepts explained above:
+
+- [Javascript documentation on asynchronous code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
+
+- [asynchronous-programming](https://eloquentjavascript.net/11_async.html)
 
 - [a/synchronous code, event loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 - [callbacks, promises, async/await](https://www.youtube.com/watch?v=PoRJizFvM7s)
