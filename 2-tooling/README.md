@@ -308,5 +308,4 @@ md='mkdir -p'
 rd=rmdir
 run-help=man
 which-command=whence
-
 ```

@@ -1,7 +1,7 @@
 # Javascript
 
 This page will present some javascript key concepts and documentation that relate to CVS project when developing.
-Credits go to the contributors from the open source community such as [Getify](https://github.com/getify) and projects are inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
+Credits go to the contributors from the open source community such as [Getify](https://github.com/getify), LearnCode.academy, Traversy Media, Philip Roberts, and projects are inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
 ## First Class Functions
 
