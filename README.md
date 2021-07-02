@@ -25,4 +25,9 @@ For the following documentation, please refer to the [ecosystem section](./3-eco
 
 For the following documentation, please refer to the [working-with-typescript section](./4-working-with-typescript/README.md)
 
-This repository is work in progress. Feel free to help!
+---
+
+---
+
+This repository is work in progress.
+Feel free to help and contribute should you want to share additional documentation, refine or add more accurate information.

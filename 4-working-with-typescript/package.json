@@ -1,0 +1,17 @@
+{
+  "name": "4-working-with-typescript",
+  "version": "1.0.0",
+  "description": "The vast majority of CVS microservices uses typescript as it offers static type checking to reduce possible bugs when javascript/ecmascript is interpreted (JIT compiler) due to its nature of being a dynamic language. Typescript checks a program for errors before execution based on the values/types defined throughout the program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
