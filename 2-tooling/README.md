@@ -77,7 +77,8 @@ git checkout
 git merge [branch]
 ```
 
-You can find further information about branching and merging strategy on the onboarding pack. <br>CVS uses a semi-linear merge strategy with squashed commits on merge.
+You can find further information about branching and merging strategy on the onboarding pack. <br>CVS uses a [semi-linear merge strategy](https://wiki.dvsacloud.uk/display/HVT/Merge+strategy) with [squashed commits](https://wiki.dvsacloud.uk/display/HVT/Rebasing+and+committing+code) on merge.
+This will happen automatically as the code repositories are configured to do so, however you may need/want to rebase local changes to accept incoming changes easily or simply rewrite your commit message history when your changes are ready to be merged.
 
 ### Compare
 
