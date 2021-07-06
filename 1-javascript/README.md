@@ -1,7 +1,7 @@
 # Javascript
 
 This page will present some javascript key concepts and documentation that relate to CVS project when developing.
-Credits go to the contributors from the open source community such as [Getify](https://github.com/getify), LearnCode.academy, Traversy Media, Philip Roberts, and projects are inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
+Credits go to the contributors from the open source community such as [Getify](https://github.com/getify), LearnCode.academy, Traversy Media, Philip Roberts, Fireship, and projects are inspired by [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
 ## First Class Functions
 
@@ -55,7 +55,7 @@ increment(2); // 3, is equivalent to add(1)(2)
 addFive(2); // 7
 ```
 
-Please refer to Mozilla documentation for [further details](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures).
+Please refer to Mozilla documentation for [further details](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) or this short [video](https://www.youtube.com/watch?v=vKJpN5FAeF4).
 
 ## Asynchronous programming
 
