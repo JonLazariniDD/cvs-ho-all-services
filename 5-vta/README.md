@@ -4,7 +4,7 @@ This application allows assessors to check and record all aspects of a vehicle s
 The code repository can be found on github - [cvs-app-mobile](https://github.com/dvsa/cvs-app-mobile/).
 The vast majority of the documentation below will require an access, if not already provided please ask your team lead or DevOps team.
 
-A VTA page can be found [here](https://wiki.dvsacloud.uk/pages/viewpage.action?spaceKey=HVT&title=VTA), please read this document as it will present the product, project onboarding, HLDs and its testing.
+A VTA page can be found [here](https://wiki.dvsacloud.uk/pages/viewpage.action?spaceKey=HVT&title=VTA), please read this document as it will present the product, project [onboarding](https://wiki.dvsacloud.uk/display/HVT/Technical+Onboarding), HLDs and its testing.
 
 ## Getting started
 
