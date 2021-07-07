@@ -62,6 +62,7 @@ All the end to end tests for VTA are under the following repo: [cvs-auto-mobile-
 Please not that for building the hybrid application locally, you will require XCode 11+ and instructions are provided in the `README.md` file of the project.
 <br>
 AWS Cloud platform is used and it is recommended to get a `DEVELOPER` access, please get in touch with your team lead or devOps team to do so.
+The following list will be the steps and jenkins jobs required for your to test your changes in an environment - [Infrastructure](https://wiki.dvsacloud.uk/pages/viewpage.action?pageId=36870584).
 
 ## Additional links
 
